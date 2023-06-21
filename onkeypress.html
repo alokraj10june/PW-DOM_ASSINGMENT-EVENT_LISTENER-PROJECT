@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="display"></h1>
+        <input type="text" id="input-box" placeholder="type">
+    </div>
+    <script>
+        let inputBox = document.getElementById('input-box') 
+        let displays=document.getElementById("display")
+        
+    inputBox.addEventListener('keypress', function(e){
+    display.innerText ="you have Pressed "+ e.key
+})
+    </script>
+</body>
+</html>

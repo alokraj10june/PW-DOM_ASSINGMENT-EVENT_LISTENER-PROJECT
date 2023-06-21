@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="display">press any key....</div>
+    <script>
+        let var1=document.getElementById("container");
+        let var2=document.getElementById("display");
+        document.addEventListener("keydown",function(e){
+            var2.style.color = "red";
+            display.innerText = e.key + " is keyDown";
+
+
+        })
+
+    </script>
+</body>
+</html>
